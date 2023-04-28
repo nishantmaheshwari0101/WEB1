@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+    height: 1592px;
+  }
+  
+  .nav-section{
+    width: 100%;
+    height: 35px;
+    background-color: brown;
+    
+    /* position: fixed; */
+    /* z-index: 5; */
+  }
+  
+  
+  ul{
+   
+    width: 100%;
+    padding-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    list-style-type: none;
+    font-size: 12px;
+    
+    color: white;
+   
+   } 
+   li{
+    margin-left: 10px;
+   }
+  .gg{
+    margin-right: 30px;
+   
+  }
+  
+  li a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .text2-section{
+    width: 100%;
+    height: 1592px;
+    padding: 20px 485px;
+   
+    
+    background-image: url(./Dutch-Portland-background3-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+  }
+  .head-section{
+    width: 720px;
+    height: 70px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+    
+    
+    background-color:brown ;
+    
+  }
+  .head-section h3{
+    font-size: 18px;
+  }
+  
+  .slide-image{
+    width: 720px;
+    background-color: white;
+    
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .last-section{
+    margin-top: 15px;
+    width: 720px;
+    min-height: 1093px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    grid-template-rows: repeat(10,1fr);
+    background-color: rgb(247, 245, 245,90%);
+   
+  
+  
+    
+  }
+  .box{
+    border: 7px solid #52c0b0;
+    
+  }
+  .ACTION-ON-INSTAGRAM{
+    grid-column: 1/2;
+    grid-row: 1/6;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  
+    
+  }
+  
+  .box-ACTION-ON-INSTAGRAM-up h3{
+    margin-top: 10px;
+  color: brown;
+  font-weight: 800;
+  margin-left: 50px;
+  
+  }
+  .box-ACTION-ON-INSTAGRAM-up hr{
+    width: 280px;
+    margin-left: 20px;
+    border: 1px solid #18CECE;
+  }
+  .box-ACTION-ON-INSTAGRAM-down pre{
+    font-size: 12px;
+    margin-left: 10px;
+    color: grey;
+    margin-top: -100px;
+    
+    
+  }
+  .box-ACTION-ON-INSTAGRAM-down pre span{
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+  }
+  .FEAST-YOUR-EYES{
+    grid-column: 2/3;
+    grid-row: 1/5;
+  }
+  .FEAST-YOUR-EYES-text h3{
+    margin-top: 10px;
+  color: brown;
+  font-weight: 800;
+  margin-left: 50px;
+  
+  }
+  .FEAST-YOUR-EYES-text hr{
+    width: 280px;
+    margin-left: 20px;
+    border: 1px solid #18CECE;
+  }
+  .FEAST-YOUR-EYES-img{
+    
+    margin-left: 20px;
+  }
+  .FEAST-YOUR-EYES-img img{
+    
+    padding: 10px 2px;
+  }
+  .FEAST-YOUR-EYES-img img:hover{
+  
+    filter:grayscale(150%);
+    transition: all ease-in-out 0.1s;
+  }
+  .FEAST-YOUR-EYES h6{
+    
+    margin-left: 50px;
+    color: #18CECE;
+  }
+  .FEAST-YOUR-EYES h6:hover{
+    color: rgb(123, 85, 28);
+  }
+  .HOURS{
+    grid-column: 2/3;
+    grid-row: 5/7;
+  }
+  .box-HOURS-text{
+    margin-top: 20px;
+  }
+  .box-HOURS-text h3{
+    margin-left: 110px;
+    color: brown;
+    font-weight: 800;
+    
+  }
+  
+  .box-HOURS-text hr,.box-5-text hr{
+    margin-top: 20px;
+    width: 280px;
+    margin-left: 20px;
+  }
+  .box-HOURS-text h6{
+    margin-top: 20px;
+    margin-left: 80px;
+    color: rgba(172, 124, 51, 0.816);
+  }
+  .box-HOURS-text p{
+    margin-top: 20px;
+    margin-left: 130px;
+  }
+  
+  .CATERING-MENU{
+    grid-column: 1/2;
+    grid-row: 6/9;
+  }
+  
+  .box-CATERING-MENU-text{
+    margin-top: 20px;
+  }
+  .box-CATERING-MENU-text i{
+    margin-left: 160px;
+    font-size: 35px;
+    color: gray;
+  }
+  .box-CATERING-MENU-text h3{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: brown;
+    font-weight: 800;
+    
+  }
+  
+  .box-CATERING-MENU-text hr{
+    margin-top: 20px;
+    width: 280px;
+    margin-left: 20px;
+  }
+  .box-CATERING-MENU-text h6{
+    margin-top: 20px;
+    margin-left: 60px;
+    color: rgba(172, 124, 51, 0.816);
+  }
+  .box-CATERING-MENU-text p{
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #18CECE;
+  }
+  .box-CATERING-MENU-text p:hover{
+    color: rgb(123, 85, 28);
+  }
+  
+  .ONLINE-MERCHANDISE-AVAILABLE{
+    grid-column: 2/3;
+    grid-row: 7/10;
+  }
+  .box-ONLINE-MERCHANDISE-AVAILABLE-text{
+    margin-top: 20px;
+  }
+  .box-ONLINE-MERCHANDISE-AVAILABLE-text h3{
+    margin-left: 80px;
+    color: brown;
+    font-weight: 800;
+  }
+  .box-ONLINE-MERCHANDISE-AVAILABLE-text p{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #18CECE;
+  }
+  .box-ONLINE-MERCHANDISE-AVAILABLE-text p:hover{
+    color: rgb(123, 85, 28);
+  }
+  .DELIVERY-SERVICE{
+    grid-column: 1/2;
+    grid-row:9/11;
+  }
+  
+  .box-DELIVERY-SERVICE-text{
+    margin-top: 20px;
+  }
+  .box-DELIVERY-SERVICE-text h3{
+    margin-left: 40px;
+    color: brown;
+    font-weight: 800;
+    
+  }
+  
+  .box-DELIVERY-SERVICE-text hr{
+    margin-top: 20px;
+    width: 280px;
+    margin-left: 30px;
+  }
+  .box-DELIVERY-SERVICE-text h6{
+    margin-top: 20px;
+    margin-left: 60px;
+    color: rgba(172, 124, 51, 0.816);
+  }
+  .box-DELIVERY-SERVICE-text p{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #18CECE;
+  }
+  .box-DELIVERY-SERVICE-text p:hover{
+    color: rgb(123, 85, 28);
+  }
+  
+  .home-section{
+    position: relative;
+    left: 285px;
+    top: -1555px;
+    
+    width: 170px;
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+     
+  }
+  .img-section{
+    display: flex;
+    justify-content: center;
+   /* position: fixed; */
+  }
+  
+  .img-section img{
+    width: 170px;
+    
+  }
+  .btn-section{
+    background-color: white;
+    width: 170px;
+    height: 330px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* position: fixed; */
+    
+  }
+  .btn-section button{
+    margin-left: 15px;
+  width: 140px;
+  height: 40px;
+  
+  border: none;
+  color: brown;
+  font-weight: 800;
+  background-color: transparent;
+  }
+  .btn-section hr{
+    margin-top: -1px;
+    width: 100px;
+    margin-left: 40px;
+  }
+  .btn-section button:hover{
+    background-color: #18CECE;
+    color: white;
+  }
+  .social-section{
+    width: 170px;
+    height: 100px;
+    margin-top: 3px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+   
+    
+  }
+  .social-section i{
+    font-size: 35px;
+    padding: 3px;
+    color: gray;
+    background-attachment: fixed;
+  
+  }
